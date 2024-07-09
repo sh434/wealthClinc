@@ -1,0 +1,67 @@
+.bg-vision {
+    width: 80%;
+    height: auto;
+    border-radius: 60px 0px 0px 0px;
+    animation: floatAnimation 5s infinite linear;
+}
+
+.bg-vision:hover {
+    animation-play-state: paused;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+        /* Initial position */
+    }
+
+    50% {
+        transform: translateY(-20px);
+        /* Float up */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Return to initial position */
+    }
+}
+
+.vision-title {
+    font-weight: 700;
+    border-bottom: 7px solid #E28A7C;
+    display: inline;
+}
+
+.visionpara {
+    margin-top: 35px;
+    text-align: justify;
+}
+
+.visionSecBg1 {
+    background-color: #f2cbc5;
+    padding: 31px;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.iconPlacement {
+    float: right;
+}
+
+.mtb {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.giphyBg {
+    background-image: url("../../../../assets/giphy.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+

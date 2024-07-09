@@ -1,0 +1,17 @@
+.eventSliderContainer {
+    border-radius: 1rem !important;
+}
+
+.eventGallerySlider {
+    height: 450px;
+    /* position: relative; */
+}
+
+.eventGallerySlider button {
+    top: 0;
+    display: none !important;
+}
+
+.eventGallerySlider .styleForSliderLib {
+    width: 100%;
+}

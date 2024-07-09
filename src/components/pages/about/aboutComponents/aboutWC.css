@@ -1,0 +1,45 @@
+.Wc-mission {
+    width: 100%;
+    height: auto;
+    border-radius: 60px 0px 0px 0px;
+    transition: border-radius 0.5s ease-in-out
+}
+
+.Wc-mission:hover {
+    border-radius: 60px 60px 60px 60px;
+}
+
+.Wc-title {
+    font-weight: 700;
+    border-bottom: 7px solid #72A081;
+    display: inline;
+}
+
+.Wcpara {
+    margin-top: 35px;
+    text-align: justify;
+}
+
+.WcSecBg1 {
+    background-color: #d6dfd9;
+    padding: 31px;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.iconPlacement {
+    float: right;
+}
+
+.mtb {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Wc-title {
+        border-bottom: none;
+        color: #ef750f;
+    }
+}

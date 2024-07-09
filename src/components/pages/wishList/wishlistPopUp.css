@@ -1,0 +1,83 @@
+.wishListPopUp {
+    position: fixed;
+    top: 100px;
+    width: 400px;
+    min-height: 200px;
+    max-height: 550px;
+    right: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    z-index: 999999;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+    @media screen and (max-width: 768px) {
+        top: 0;
+        left: 50%;
+        width: 364px;
+        z-index: 999999999999999;
+        transform: translateX(-50%);
+    }
+
+
+}
+
+/* .wishListPopUp {
+    position: sticky;
+    left: 100%;
+    top: 100%;
+} */
+
+.wishListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    padding: 0.25rem 1rem;
+    border: 0 0 1px 0 solid #000;
+}
+
+.wishListHeader button {
+    border: none;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+    color: #ef750f;
+    font-weight: 700;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+}
+
+.wishListHeader button:hover {
+    color: #000;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+
+.wishListContainer {
+    width: 400px;
+    min-height: 200px;
+    max-height: 500px;
+    /* Adjust as needed for your content */
+    overflow-y: scroll;
+    /* Enables vertical scrolling */
+    margin-bottom: 2rem;
+}
+
+/* .wishListContainer::-webkit-scrollbar {
+    display: none;
+} */
+
+/* .wishListContainer {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+} */
+
+/* .wishListPopUp {
+    right: 0px !important;
+    position: sticky;
+    top: 500px;
+    background-color: #f1f1f1;
+    padding: 10px;
+} */

@@ -1,0 +1,83 @@
+/* nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    border: 2px solid red;
+}
+
+nav ul li {
+    position: relative;
+    white-space: nowrap;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li ul {
+    top: 50%;
+    left: 0;
+}
+
+nav>ul>li ul ul {
+    top: 0;
+    left: 100%;
+}
+
+nav>ul>li:hover>ul,
+nav>ul>li li:hover>ul {
+    display: inherit;
+    background-color: #f7f7f7;
+    width: 110% !important;
+}
+
+nav span {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    position: relative;
+}
+
+nav span:not(:only-child) {
+    padding-right: 2em;
+}
+
+nav span:not(:only-child)::after {
+    content: "+";
+    position: absolute;
+    right: 1em;
+}
+
+nav ul li:hover>span:not(:only-child)::after {
+    content: "-";
+}
+
+.findProperty {
+    color: #fff;
+}
+
+span.resdes {
+    width: 92%;
+    background: #e5e5e5;
+    color: #000;
+    border-radius: 5px;
+    margin: 3px 6px;
+    padding: 5px 16px;
+    border: 2px solid green;
+    border: 1px solid yellow;
+
+}
+
+span.resdes:hover {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 3px 6px;
+    padding: 5px 16px;
+    border: 1px solid yellow;
+} */

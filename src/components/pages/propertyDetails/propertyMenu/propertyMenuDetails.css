@@ -1,0 +1,48 @@
+.propertyMenuDetails {
+    background-color: #0b2c3d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    /* padding: 0.5rem 0; */
+    padding: 0.5rem 0;
+}
+
+.propertyMenuDetails div {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.propertyMenuDetails div:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    color: #333;
+    background-color: #fff;
+    font-weight: 550;
+    transition-duration: 0.5s;
+}
+
+.propertyMenuDetails-content {
+    padding-left: 1.5rem;
+    min-height: 500px !important;
+}
+
+.newBoxShadow {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1) spread(-5px);
+    border-radius: 0.5rem;
+}
+
+.contactExpertFormWidth {
+    width: 21.5rem;
+}
+.propertyMenuDetails-content {
+    overflow-y: auto;
+    height: calc(100vh);
+}
+
+.fixed-form {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}

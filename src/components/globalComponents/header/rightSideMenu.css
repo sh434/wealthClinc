@@ -1,0 +1,102 @@
+.modal.sidebar {
+    z-index: 99999999;
+    right: 0;
+    left: auto;
+    width: 422px;
+    background-color: #000000;
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+    transition: transform 1.5s ease;
+}
+
+.modal-dialog {
+    margin: 0;
+    max-height: 100%;
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #ef750f;
+}
+
+.modal-title {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+button.btn-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    opacity: 1;
+    border: 1px solid #fff;
+}
+
+button.btn-close:hover {
+    opacity: 0.6;
+    border: 1px solid #ef750f;
+    transition: ease-in-out 0.5s;
+    box-shadow: 2px 2px 4px rgba(255, 69, 0);
+}
+
+/* .backMenuBg {
+    background-color: #fff;
+    color: #000000;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-right: -5px;
+    margin-left: 14px
+} */
+
+.subMenutext {
+    text-decoration: none;
+}
+
+.sizeWc {
+    width: 110px;
+    height: auto;
+}
+
+.MapClasses {
+    border: 4px solid #fff;
+    border-radius: 20px;
+}
+
+
+.modal a {
+    text-decoration: none;
+}
+
+.modal span a {
+    background-color: #fff;
+    color: #000000;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-right: -5px;
+    margin-left: 14px;
+
+}
+
+/* .disabledButton {
+    opacity: 0.2;
+
+} */
+
+/* .modal-backdrop.show {
+    opacity: 0 !important;
+} */

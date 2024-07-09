@@ -1,0 +1,39 @@
+.app-Landing-Section {
+    background-color: #000;
+    height: 500px;
+
+}
+
+.appLanding-Left {
+    background-color: transparent;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.qr-code {
+    width: 200px;
+    height: 200px;
+}
+
+
+.qr-code img {
+    width: 100%;
+    height: 100%;
+}
+
+.appLanding-Right {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.appLanding-Right img {
+    width: auto;
+    height: 100%;
+    /* border: 2px solid red; */
+}

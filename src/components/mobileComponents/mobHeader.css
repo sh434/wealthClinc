@@ -1,0 +1,101 @@
+@media screen and (max-width: 768px) {
+    .nav-link {
+        border-bottom: 1px solid #303030;
+        color: #dddddd;
+        margin-left: 1.75rem;
+        font-size: 14px;
+    }
+
+    .header {
+        padding: 0;
+        top: 0;
+        border-radius: 0;
+    }
+
+    .mobHeaderInnerBox {
+        right: 0;
+        display: flex;
+
+        & .bar {
+            border: 1px;
+        }
+
+        .header-logo {
+            width: 4.5rem !important;
+            padding: 1px !important;
+            height: 2.25rem;
+            margin: 0;
+        }
+    }
+
+    .icon-menu {
+        width: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .bar {
+        height: 2.5px;
+        width: 100%;
+        border-radius: 0.5rem;
+        background-color: #f37535;
+        transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .bar--1 {
+        transform: translateY(0) rotate(0);
+    }
+
+    .bar--2 {
+        transform: scaleX(1);
+    }
+
+    .bar--3 {
+        transform: translateY(0) rotate(0);
+    }
+
+    .check-icon:checked+.icon-menu .bar--1 {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .check-icon:checked+.icon-menu .bar--2 {
+        transform: scaleX(0);
+    }
+
+    .check-icon:checked+.icon-menu .bar--3 {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+    input#check-icon {
+        display: none;
+    }
+
+    nav.header.navbar.navbar-expand-lg.navbar-light {
+        background: #030303;
+        /* height: 44px; */
+    }
+
+    div#basic-navbar-nav {
+        background: #000000;
+        height: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobHeader .customDropDown button {
+        padding: 0 1rem;
+    }
+
+    .mobHeader .dropDownList {
+        position: relative;
+        background: #000;
+    }
+
+    .mobHeader button.fw-bold {
+        margin-top: 0;
+        padding: 0 1rem;
+    }
+}

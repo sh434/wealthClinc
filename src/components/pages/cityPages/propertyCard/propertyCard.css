@@ -1,0 +1,178 @@
+.btn-tab-font {
+    font-size: 10px;
+    word-spacing: 2px;
+}
+
+.btn-outline-secondary {
+    margin: 0.25rem;
+}
+
+.city-details-desc {
+    text-align: justify;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #666;
+}
+
+.property-card {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    display: block;
+    position: relative;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 12px 0 rgba(0, 0, 0, 0.3);
+    border: solid 1px #ffffff;
+}
+
+.card-main-head {
+    display: flex;
+    justify-content: space-between;
+    color: var(--global-text-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-city-sec-1 {
+    font-size: 14px;
+    color: #212529;
+}
+
+.card-city-price-1 {
+    font-size: 1.25rem;
+    color: var(--global-text-color);
+    font-weight: 700;
+    line-height: 0.25rem;
+}
+
+.social-btn-city {
+    background: #25d366;
+    color: white;
+    padding: 0.55rem 0.75rem;
+    border-radius: 0.75rem;
+    border: 2px solid #ffffff;
+}
+
+.social-btn-city:hover {
+    color: #ef750f;
+    border: 2px solid #ef750f;
+    font-size: 1rem;
+}
+
+.btn-check+.btn:hover {
+    color: #e7e7e7;
+    background-color: #ef750f;
+    border-color: #ef750f;
+}
+
+.card-city-img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    /* height: 220px; */
+    border-radius: .5rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.btn.btn-sm.btn-shadow-card {
+    margin: 0.25rem 0.5rem;
+}
+
+.btn-group.mx-auto {
+    margin-top: 10px;
+}
+
+.properties-card-btn-container button {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    /* line-height: 0rem; */
+}
+
+.properties-card-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.whatsapp-btn {
+    background-color: #fff;
+    padding: 0.5rem 0.25rem;
+    /* background-color: var(--global-dark-btn-color); */
+}
+
+.fa-whatsapp {
+    color: #25d366;
+    font-size: 1.25rem;
+}
+
+.fa-phone-flip {
+    color: skyblue;
+    font-size: 1.25rem;
+}
+
+.properties-detail {
+    background-color: var(--global-dark-btn-color);
+    color: #fff;
+    /* padding: 0.5rem 0.75rem; */
+}
+
+.properties-detail:hover {
+    opacity: 0.85;
+}
+
+.properties-detail a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wishListIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    /* background-color: red; */
+    /* color: #EF750F; */
+    font-weight: 800;
+}
+
+/* @media screen and (max-width: 768px) {
+    .property-card hr {
+        display: none;
+    }
+} */
+
+@media (width <=768px) {
+    .property-card {
+        hr {
+            display: none;
+        }
+
+        .card-city-sec-1 {
+            font-size: 0.75rem;
+            color: #666;
+            line-height: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card-main-head {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        .card-city-price-1 {
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 0;
+            margin-top: 0.75rem;
+        }
+
+        .properties-card-btn-container button {
+            border-radius: .25rem;
+        }
+
+    }
+}

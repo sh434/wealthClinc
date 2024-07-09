@@ -1,0 +1,30 @@
+.bgArrow {
+    background-image: url("../aboutComponents/asset/final.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+
+    @media screen and (max-width: 768px) {
+        background-image: none;
+    }
+}
+
+.bgArrow::before {
+    transform: rotate(45deg);
+}
+
+.TopBottomPadding {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.centerItemFourPillars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}

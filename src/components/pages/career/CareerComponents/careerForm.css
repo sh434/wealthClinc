@@ -1,0 +1,25 @@
+.career-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 3rem 0;
+}
+
+
+.career-form form {
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
+
+
+.career-form button {
+    font-weight: 600;
+}

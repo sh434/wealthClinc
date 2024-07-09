@@ -1,0 +1,27 @@
+
+
+.back-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 3px;
+  z-index: 1000;
+}
+
+.back-button {
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 0;
+  width: 3.813rem; 
+  height: 2.25rem; 
+  padding: 0.5rem; 
+  border-radius: 0.313rem;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.688rem; 
+  font-weight: 700;
+}
+
+.back-button:hover {
+  transform: scale(1.05);
+
+}

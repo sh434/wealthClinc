@@ -1,0 +1,33 @@
+.eventTimeZoneContainer {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 0.5rem;
+    /* border: 2px solid red; */
+}
+
+.iconContainer {
+    width: 40px;
+    height: 40px;
+    background-color: #ef750f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 900;
+
+}
+
+.icon {
+    font-size: 1.25rem;
+}
+
+.textContainer {
+    font-weight: 650;
+    line-height: 1.25;
+    padding-left: 1rem;
+}
+
+.textTitle {
+    color: #888;
+}

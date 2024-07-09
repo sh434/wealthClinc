@@ -1,0 +1,990 @@
+{
+  "listingDataSource": "Phoenix",
+  "zpid": 12345678,
+  "city": "Orinda",
+  "state": "CA",
+  "homeStatus": "FOR_SALE",
+  "address": {
+    "streetAddress": "10 Example St",
+    "city": "Orinda",
+    "state": "CA",
+    "zipcode": "94563",
+    "neighborhood": null,
+    "community": null,
+    "subdivision": null
+  },
+  "bedrooms": 4,
+  "bathrooms": 5,
+  "price": 4795000,
+  "yearBuilt": 1990,
+  "streetAddress": "10 Example St",
+  "zipcode": "94563",
+  "regionString": "Orinda CA 94563",
+  "isRentalListingOffMarket": false,
+  "hdpUrl": "/homedetails/10-Example-St-Orinda-CA-94563/12345678_zpid/",
+  "listing_sub_type": {
+    "is_newHome": false,
+    "is_FSBO": false,
+    "is_FSBA": true,
+    "is_foreclosure": false,
+    "is_bankOwned": false,
+    "is_forAuction": false,
+    "is_comingSoon": false,
+    "is_pending": false,
+    "is_openHouse": false
+  },
+  "nearbyCities": [
+    {
+      "regionUrl": {
+        "path": "/antioch-ca/"
+      },
+      "name": "Antioch",
+      "body": null
+    }
+  ],
+  "nearbyNeighborhoods": [],
+  "country": "USA",
+  "nearbyZipcodes": [
+    {
+      "regionUrl": {
+        "path": "/orinda-ca-94563/"
+      },
+      "name": "94563",
+      "body": null
+    }
+  ],
+  "cityId": 42569,
+  "citySearchUrl": {
+    "text": "Homes in Orinda",
+    "path": "/orinda-ca/"
+  },
+  "zipcodeSearchUrl": {
+    "path": "/orinda-ca-94563/"
+  },
+  "apartmentsForRentInZipcodeSearchUrl": {
+    "path": "/orinda-ca-94563/apartments/"
+  },
+  "housesForRentInZipcodeSearchUrl": {
+    "path": "/orinda-ca-94563/rent-houses/"
+  },
+  "abbreviatedAddress": "10 Example St",
+  "county": "Contra Costa County",
+  "neighborhoodRegion": null,
+  "building": null,
+  "isUndisclosedAddress": false,
+  "boroughId": null,
+  "providerListingID": null,
+  "neighborhoodSearchUrl": null,
+  "stateSearchUrl": {
+    "path": "/ca/"
+  },
+  "countySearchUrl": {
+    "text": "Homes in Contra Costa County",
+    "path": "/contra-costa-county-ca/"
+  },
+  "boroughSearchUrl": null,
+  "communityUrl": null,
+  "isPremierBuilder": false,
+  "homeType": "SINGLE_FAMILY",
+  "currency": "USD",
+  "resoFacts": {
+    "accessibilityFeatures": null,
+    "additionalFeeInfo": null,
+    "associations": [
+      {
+        "feeFrequency": "$72 monthly",
+        "name": "Orinda Downs Owners Association",
+        "phone": null
+      }
+    ],
+    "associationFee": "$72 monthly",
+    "associationAmenities": ["Call for Rules"],
+    "associationFee2": null,
+    "associationFeeIncludes": null,
+    "associationName": "Orinda Downs Owners Association",
+    "associationName2": null,
+    "associationPhone": null,
+    "associationPhone2": null,
+    "basementYN": false,
+    "buildingName": null,
+    "buyerAgencyCompensation": "2.5",
+    "buyerAgencyCompensationType": "%",
+    "appliances": ["Refrigerator"],
+    "atAGlanceFacts": [
+      {
+        "factLabel": "Type",
+        "factValue": "Single Family Residence"
+      },
+      {
+        "factLabel": "Year Built",
+        "factValue": "1990"
+      },
+      {
+        "factLabel": "Heating",
+        "factValue": "Forced Air"
+      },
+      {
+        "factLabel": "Cooling",
+        "factValue": "Central Air"
+      },
+      {
+        "factLabel": "Parking",
+        "factValue": "3 Attached Garage spaces"
+      },
+      {
+        "factLabel": "HOA",
+        "factValue": "$72 monthly"
+      },
+      {
+        "factLabel": "Lot",
+        "factValue": "0.55 Acres"
+      },
+      {
+        "factLabel": "Days on Zillow",
+        "factValue": "21 Days"
+      },
+      {
+        "factLabel": "Price/sqft",
+        "factValue": "$987"
+      },
+      {
+        "factLabel": "Buyers Agency Fee",
+        "factValue": "2.5"
+      },
+      {
+        "factLabel": "Offer Review Date",
+        "factValue": null
+      }
+    ],
+    "attic": null,
+    "availabilityDate": null,
+    "basement": null,
+    "bathrooms": 5,
+    "bathroomsFull": 4,
+    "bathroomsHalf": 1,
+    "bathroomsOneQuarter": null,
+    "bathroomsPartial": null,
+    "bathroomsFloat": 5,
+    "bathroomsThreeQuarter": null,
+    "bedrooms": 4,
+    "bodyType": null,
+    "canRaiseHorses": false,
+    "carportParkingCapacity": null,
+    "cityRegion": "Orinda",
+    "commonWalls": "No Common Walls",
+    "communityFeatures": ["Park"],
+    "cooling": ["Central Air"],
+    "coveredParkingCapacity": 3,
+    "cropsIncludedYN": null,
+    "developmentStatus": null,
+    "doorFeatures": null,
+    "electric": ["220 Volts", "Photovoltaics Seller Owned"],
+    "elevation": null,
+    "elevationUnits": "Feet",
+    "entryLevel": null,
+    "entryLocation": "FRONT",
+    "exclusions": null,
+    "feesAndDues": [
+      {
+        "type": "HOA",
+        "fee": "$72 monthly",
+        "name": "Orinda Downs Owners Association",
+        "phone": null
+      }
+    ],
+    "fencing": null,
+    "fireplaceFeatures": ["Family Room", "Living Room"],
+    "fireplaces": null,
+    "flooring": null,
+    "foundationArea": null,
+    "furnished": false,
+    "garageParkingCapacity": 3,
+    "gas": null,
+    "greenBuildingVerificationType": null,
+    "greenEnergyEfficient": null,
+    "greenIndoorAirQuality": null,
+    "greenSustainability": null,
+    "greenWaterConservation": null,
+    "hasAssociation": true,
+    "hasAttachedGarage": true,
+    "hasAttachedProperty": false,
+    "hasCooling": true,
+    "hasCarport": null,
+    "hasElectricOnProperty": false,
+    "hasFireplace": true,
+    "hasGarage": true,
+    "hasHeating": true,
+    "hasLandLease": false,
+    "hasOpenParking": null,
+    "hasSpa": true,
+    "hasPrivatePool": true,
+    "hasView": true,
+    "hasWaterfrontView": null,
+    "heating": ["Forced Air"],
+    "highSchool": null,
+    "highSchoolDistrict": "Orinda",
+    "hoaFee": "$72 monthly",
+    "hoaFeeTotal": "$72 monthly",
+    "homeType": "SingleFamily",
+    "horseAmenities": null,
+    "horseYN": null,
+    "interiorFeatures": ["Laundry", "Master Bathroom", "Office"],
+    "irrigationWaterRightsAcres": null,
+    "irrigationWaterRightsYN": null,
+    "isSeniorCommunity": null,
+    "landLeaseAmount": null,
+    "landLeaseExpirationDate": null,
+    "laundryFeatures": ["Gas Dryer Hookup", "Washer Hookup"],
+    "levels": "Two",
+    "listingId": null,
+    "lotFeatures": [
+      "0-1 Unit/Acre",
+      "Back Yard",
+      "Front Yard",
+      "Sprinkler System"
+    ],
+    "lotSize": "0.55 Acres",
+    "livingQuarters": [],
+    "mainLevelBathrooms": 1,
+    "mainLevelBedrooms": 1,
+    "marketingType": null,
+    "middleOrJuniorSchool": null,
+    "middleOrJuniorSchoolDistrict": null,
+    "municipality": null,
+    "numberOfUnitsInCommunity": null,
+    "offerReviewDate": null,
+    "onMarketDate": 1684886400000,
+    "openParkingCapacity": null,
+    "otherEquipment": null,
+    "otherFacts": [],
+    "otherParking": null,
+    "ownershipType": null,
+    "parkingCapacity": 3,
+    "parkingFeatures": ["Garage - Attached"],
+    "patioAndPorchFeatures": null,
+    "poolFeatures": ["Private", "Heated", "In Ground"],
+    "pricePerSquareFoot": 987,
+    "roadSurfaceType": null,
+    "roofType": "Slate",
+    "rooms": [
+      {
+        "area": null,
+        "description": null,
+        "dimensions": null,
+        "level": null,
+        "features": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomAreaUnits": null,
+        "roomDescription": null,
+        "roomDimensions": null,
+        "roomFeatures": ["Bidet", "Remodeled"],
+        "roomLength": null,
+        "roomLengthWidthSource": null,
+        "roomLengthWidthUnits": null,
+        "roomLevel": null,
+        "roomType": "Bathroom",
+        "roomWidth": null
+      },
+      {
+        "area": null,
+        "description": null,
+        "dimensions": null,
+        "level": null,
+        "features": null,
+        "roomArea": null,
+        "roomAreaSource": null,
+        "roomAreaUnits": null,
+        "roomDescription": null,
+        "roomDimensions": null,
+        "roomFeatures": ["Remodeled Kitchen"],
+        "roomLength": null,
+        "roomLengthWidthSource": null,
+        "roomLengthWidthUnits": null,
+        "roomLevel": null,
+        "roomType": "Kitchen",
+        "roomWidth": null
+      }
+    ],
+    "securityFeatures": ["Security System"],
+    "sewer": ["Public Sewer"],
+    "spaFeatures": ["Heated", "In Ground"],
+    "specialListingConditions": "Standard,Trust",
+    "stories": 2,
+    "storiesTotal": 2,
+    "subdivisionName": null,
+    "totalActualRent": null,
+    "utilities": null,
+    "view": ["Trees/Woods"],
+    "waterSource": ["Public"],
+    "waterBodyName": null,
+    "waterfrontFeatures": null,
+    "waterView": null,
+    "waterViewYN": null,
+    "windowFeatures": null,
+    "yearBuilt": 1990,
+    "zoning": null,
+    "zoningDescription": null,
+    "aboveGradeFinishedArea": null,
+    "additionalParcelsDescription": null,
+    "architecturalStyle": null,
+    "belowGradeFinishedArea": null,
+    "builderModel": null,
+    "builderName": null,
+    "buildingArea": null,
+    "buildingAreaSource": null,
+    "buildingFeatures": null,
+    "constructionMaterials": [],
+    "exteriorFeatures": [],
+    "foundationDetails": [],
+    "frontageLength": null,
+    "frontageType": null,
+    "hasAdditionalParcels": false,
+    "hasPetsAllowed": null,
+    "hasRentControl": null,
+    "hasHomeWarranty": false,
+    "inclusions": null,
+    "incomeIncludes": null,
+    "isNewConstruction": false,
+    "listingTerms": null,
+    "livingAreaRange": null,
+    "livingAreaRangeUnits": null,
+    "livingArea": "4,856 sqft",
+    "lotSizeDimensions": null,
+    "numberOfUnitsVacant": null,
+    "otherStructures": null,
+    "ownership": null,
+    "parcelNumber": "12344531511",
+    "propertyCondition": "Updated/Remodeled",
+    "propertySubType": ["Single Family Residence"],
+    "structureType": null,
+    "topography": null,
+    "vegetation": null,
+    "woodedArea": null,
+    "yearBuiltEffective": null,
+    "virtualTour": null,
+    "elementarySchool": null,
+    "elementarySchoolDistrict": null,
+    "listAOR": "California Regional MLS"
+  },
+  "attributionInfo": {
+    "listingAgreement": null,
+    "mlsName": "CRMLS",
+    "agentEmail": "john@example.com",
+    "agentLicenseNumber": "DRE #01234567",
+    "agentName": "John Doe",
+    "agentPhoneNumber": null,
+    "attributionTitle": "Listing Provided by:",
+    "brokerName": "Real Estate Ebroker Inc",
+    "brokerPhoneNumber": "700-123-4567",
+    "buyerAgentMemberStateLicense": null,
+    "buyerAgentName": null,
+    "buyerBrokerageName": null,
+    "coAgentLicenseNumber": null,
+    "coAgentName": null,
+    "coAgentNumber": null,
+    "lastChecked": "2023-06-14 05:43:44",
+    "lastUpdated": "2023-05-25 23:06:14",
+    "listingOffices": [
+      {
+        "associatedOfficeType": "listOffice",
+        "officeName": "Real Estate Ebroker Inc"
+      }
+    ],
+    "listingAgents": [
+      {
+        "associatedAgentType": "listAgent",
+        "memberFullName": "John Doe",
+        "memberStateLicense": "DRE #01234567"
+      }
+    ],
+    "mlsId": "OC23089141",
+    "providerLogo": "<https://photos.zillowstatic.com/fp/9f61463932aa73f48f1ae3d056f0eb39-zillow_web_95_35.jpg>",
+    "infoString3": "<https://photos.zillowstatic.com/fp/9f61463932aa73f48f1ae3d056f0eb39-zillow_web_95_35.jpg>",
+    "infoString5": null,
+    "infoString16": "john@example.com",
+    "trueStatus": null
+  },
+  "listPriceLow": null,
+  "homeRecommendations": {
+    "blendedRecs": [],
+    "displayShort": ""
+  },
+  "livingArea": 4856,
+  "livingAreaValue": 4856,
+  "zestimate": null,
+  "newConstructionType": null,
+  "zestimateLowPercent": null,
+  "zestimateHighPercent": null,
+  "rentZestimate": null,
+  "restimateLowPercent": null,
+  "restimateHighPercent": null,
+  "schools": [
+    {
+      "distance": 1.3,
+      "name": "Sleepy Hollow Elementary School",
+      "rating": 8,
+      "level": "Elementary",
+      "studentsPerTeacher": null,
+      "assigned": null,
+      "grades": "K-5",
+      "link": "<https://www.greatschools.org/school?id=00520&state=CA>",
+      "type": "Public",
+      "size": null,
+      "totalCount": null,
+      "isAssigned": null
+    }
+  ],
+  "homeValues": null,
+  "parentRegion": {
+    "name": "94563"
+  },
+  "nearbyHomes": [
+    {
+      "zpid": 123561435,
+      "miniCardPhotos": [
+        {
+          "url": "<https://photos.zillowstatic.com/fp/4f4e12b7bb57ca0de000dbcb0954cb7d-p_c.jpg>"
+        }
+      ],
+      "price": 4413400,
+      "currency": "USD",
+      "bedrooms": 4,
+      "bathrooms": 3.5,
+      "livingArea": 4865,
+      "livingAreaValue": 4865,
+      "livingAreaUnits": "Square Feet",
+      "livingAreaUnitsShort": "sqft",
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": false
+      },
+      "lotSize": 34848,
+      "lotAreaValue": 0.8,
+      "lotAreaUnits": "Acres",
+      "address": {
+        "streetAddress": "11 Example St",
+        "city": "Orinda",
+        "state": "CA",
+        "zipcode": "94563"
+      },
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "11 Example St"
+          },
+          {
+            "fullValue": null
+          }
+        ]
+      },
+      "latitude": 37.911644,
+      "longitude": -122.175896,
+      "homeStatus": "OTHER",
+      "homeType": "SINGLE_FAMILY",
+      "hdpUrl": "/homedetails/11-Example-St-Orinda-CA-94563/123561435_zpid/",
+      "listing_sub_type": {
+        "is_newHome": false,
+        "is_forAuction": false,
+        "is_bankOwned": false,
+        "is_foreclosure": false,
+        "is_FSBO": false,
+        "is_comingSoon": false,
+        "is_FSBA": false
+      },
+      "providerListingID": null,
+      "attributionInfo": {
+        "mlsId": null,
+        "mlsName": null,
+        "providerLogo": null,
+        "agentName": null,
+        "agentPhoneNumber": null,
+        "brokerName": null,
+        "brokerPhoneNumber": null,
+        "trueStatus": null
+      },
+      "isPremierBuilder": false,
+      "state": "CA",
+      "newConstructionType": null
+    }
+  ],
+  "countyFIPS": "06013",
+  "parcelId": "15153142",
+  "taxHistory": [
+    {
+      "time": 1655210832195,
+      "taxPaid": 40565.26,
+      "taxIncreaseRate": 0.020505115,
+      "value": 3366000,
+      "valueIncreaseRate": 0.02
+    }
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-05-25",
+      "time": 1684972800000,
+      "price": 4795000,
+      "pricePerSquareFoot": 987,
+      "priceChangeRate": -0.04099980819996164,
+      "event": "Listed for sale",
+      "source": "CRMLS",
+      "buyerAgent": null,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "postingIsRental": false,
+      "attributeSource": {
+        "infoString1": "OC23089141",
+        "infoString2": "CRMLS",
+        "infoString3": "<https://photos.zillowstatic.com/fp/9f61463932aa73f48f1ae3d056f0eb39-zillow_web_logo_inf_11.jpg>"
+      }
+    },
+    {
+      "date": "2020-11-03",
+      "time": 1604361600000,
+      "price": 3300000,
+      "pricePerSquareFoot": 680,
+      "priceChangeRate": 3.0303948604503167e-5,
+      "event": "Sold",
+      "source": "MAXMLS",
+      "buyerAgent": null,
+      "sellerAgent": null,
+      "showCountyLink": false,
+      "postingIsRental": false,
+      "attributeSource": {
+        "infoString1": "40917940",
+        "infoString2": "MAXMLS",
+        "infoString3": null
+      }
+    }
+  ],
+  "comps": [
+    {
+      "zpid": 64879540,
+      "miniCardPhotos": [
+        {
+          "url": "<https://photos.zillowstatic.com/fp/0eb560ac85baa7376ee9b16614680a59-p_c.jpg>"
+        }
+      ],
+      "price": 3598000,
+      "currency": "USD",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "livingArea": 3749,
+      "livingAreaValue": 3749,
+      "livingAreaUnits": "Square Feet",
+      "livingAreaUnitsShort": "sqft",
+      "listingMetadata": {
+        "comminglingCategoryIsRulesApplicable": true
+      },
+      "lotSize": 130244,
+      "lotAreaValue": 2.99,
+      "lotAreaUnits": "Acres",
+      "address": {
+        "streetAddress": "2 Dalewood Ter",
+        "city": "Orinda",
+        "state": "CA",
+        "zipcode": "94563"
+      },
+      "formattedChip": {
+        "location": [
+          {
+            "fullValue": "2 Dalewood Ter"
+          },
+          {
+            "fullValue": "Orinda, CA 94563"
+          }
+        ]
+      },
+      "latitude": 37.90915,
+      "longitude": -122.1736,
+      "homeStatus": "FOR_SALE",
+      "homeType": "SINGLE_FAMILY",
+      "hdpUrl": "/homedetails/2-Dalewood-Ter-Orinda-CA-94563/64879540_zpid/",
+      "listing_sub_type": {
+        "is_newHome": false,
+        "is_forAuction": false,
+        "is_bankOwned": false,
+        "is_foreclosure": false,
+        "is_FSBO": false,
+        "is_comingSoon": false,
+        "is_FSBA": true
+      },
+      "providerListingID": null,
+      "attributionInfo": {
+        "mlsId": "41029245",
+        "mlsName": null,
+        "providerLogo": null,
+        "agentName": "Finola Jane Fellner",
+        "agentPhoneNumber": null,
+        "brokerName": null,
+        "brokerPhoneNumber": null,
+        "trueStatus": null
+      },
+      "isPremierBuilder": false,
+      "state": "CA",
+      "newConstructionType": null
+    }
+  ],
+  "description": "Beautiful light and bright gated estate in highly sought-after Orinda Downs neighborhood. Traditional yet casual living with highly functional spaces including a recently remodeled oversized kitchen with high end appliances (most recent Sub Zero refrigerator and two Sub Zero wine fridge, two Miele dishwashers, Wolf oven and stove) and Waterstone faucets, eat-in dining area, laundry/pantry room and bathrooms with automatic Toto toilets with built in bidets. Windows abound throughout, as does handcrafted wood molding, trim, and original re-sanded/sealed hardwood floors.  The floor plan is ideal for small or large families, and for nanny or guest set-up. Technology updates include upgraded voltage panels ready for EV charging, 8 KW Solar panels with 26 KWH battery backup by Sunpower (owned). Additional updates include new automatic pool cover, automatic gate opener, LED lights throughout Leviton switches, large capacity water heater, heated flooring throughout kitchen and eat-in kitchen area, automatic Hunter Douglas shades, and new closet systems in every closet. Extremely private and serene backyard with heated pool (updated pool heater), outdoor kitchen, fire pit and pergola-covered heated dining space. Stunning slate roof and copper gutters.",
+  "whatILove": null,
+  "contingentListingType": null,
+  "timeOnZillow": "21 days",
+  "pageViewCount": 1749,
+  "favoriteCount": 40,
+  "daysOnZillow": 21,
+  "latitude": 37.75183,
+  "longitude": -122.391405,
+  "openHouseSchedule": [],
+  "desktopWebHdpImageLink": "<https://photos.zillowstatic.com/fp/955a205dbda59d4094bfdc2bae06f94d-p_h.jpg>",
+  "brokerageName": "Real Estate Ebroker Inc",
+  "timeZone": "America/Los_Angeles",
+  "listingMetadata": {
+    "mustAttributeOfficeNameBeforeAgentName": false,
+    "mustDisplayAttributionListAgentEmail": false,
+    "mustDisplayAttributionListAgentPhone": true,
+    "mustDisplayAttributionListingOfficePhone": false,
+    "mustDisplayDisclaimerBelowAttribution": false,
+    "mustHighlightAgentName": null,
+    "mustHighlightListOfficeName": false,
+    "mustMakeListingAgentContactable": false,
+    "FlexibleLayoutAB": true,
+    "isAdsRestricted": true,
+    "canShowPrequalifiedLinkInChip": true,
+    "FlexibleLayoutB": false,
+    "FlexibleLayoutC": true,
+    "FlexibleLayoutD": true,
+    "FlexibleLayoutE": true,
+    "FlexibleLayoutF": true,
+    "FlexibleLayoutG": false,
+    "FlexibleLayoutH": true,
+    "FlexibleLayoutI": true,
+    "FlexibleLayoutJ": false,
+    "FlexibleLayoutK": false,
+    "FlexibleLayoutL": false,
+    "FlexibleLayoutM": true,
+    "FlexibleLayoutN": true,
+    "FlexibleLayoutO": true,
+    "FlexibleLayoutP": true,
+    "FlexibleLayoutQ": false,
+    "FlexibleLayoutR": true,
+    "FlexibleLayoutS": false,
+    "FlexibleLayoutT": false,
+    "FlexibleLayoutU": false,
+    "FlexibleLayoutV": false,
+    "FlexibleLayoutW": false,
+    "FlexibleLayoutX": false,
+    "FlexibleLayoutY": false,
+    "FlexibleLayoutZ": false,
+    "FlexibleLayoutAA": true,
+    "passwordRequiredForZestimateMarketAnalysis": false,
+    "canShowAutomatedValuationDisplay": false,
+    "canShowTaxHistory": true,
+    "canShowPriceHistory": true,
+    "canShowUserGeneratedContent": true,
+    "hidePriceAdjustmentFlexField": false,
+    "canCommingleComparables": true,
+    "canShowComparables": true,
+    "isSuperTrafficOptimized": false,
+    "mustDisplayFeedLogoInContactBox": false,
+    "canShowCroppedPhotos": true,
+    "canShowNonIDXMedia": true,
+    "canShowOnMap": true,
+    "comminglingCategory": true,
+    "mustDisplayAttributionAboveLocalFacts": true,
+    "mustDisplayAuctionStatusAsSold": false,
+    "mustHighlightMlsId": null,
+    "mustHighlightMlsStatus": false,
+    "mustHighlightMarketingType": false,
+    "canShowZillowLogoInHeader": true,
+    "comminglingCategoryIsRulesApplicable": true
+  },
+  "pals": [],
+  "listedBy": [
+    {
+      "id": "LISTING_AGENT",
+      "elements": [
+        {
+          "id": "NAME",
+          "text": "John Doe",
+          "action": null
+        },
+        {
+          "id": "LICENSE",
+          "text": "DRE #01234567",
+          "action": null
+        }
+      ],
+      "textStyle": null
+    },
+    {
+      "id": "BROKER",
+      "elements": [
+        {
+          "id": "NAME",
+          "text": "Real Estate Ebroker Inc",
+          "action": null
+        }
+      ],
+      "textStyle": null
+    }
+  ],
+  "homeInsights": [
+    {
+      "insights": [
+        {
+          "modelId": "v2-2",
+          "treatmentId": "model_0",
+          "phrases": [
+            "New automatic pool cover",
+            "Heated pool",
+            "Outdoor kitchen",
+            "Upgraded voltage panels",
+            "High end appliances",
+            "New closet systems",
+            "Large capacity water heater"
+          ]
+        },
+        {
+          "modelId": "v2-3a",
+          "treatmentId": "model_1",
+          "phrases": [
+            "Automatic hunter douglas shades",
+            "Sub zero refrigerator",
+            "Outdoor kitchen",
+            "Eat-in kitchen area",
+            "Fire pit",
+            "Eat-in dining area",
+            "Automatic toto toilets"
+          ]
+        },
+        {
+          "modelId": "v0-no-tags",
+          "treatmentId": "model_3",
+          "phrases": []
+        }
+      ]
+    }
+  ],
+  "sellingSoon": [
+    {
+      "treatmentId": "model_0",
+      "percentile": 0.6
+    }
+  ],
+  "listingProvider": null,
+  "isIncomeRestricted": null,
+  "brokerId": null,
+  "ssid": 3,
+  "monthlyHoaFee": 72,
+  "mortgageZHLRates": {
+    "fifteenYearFixedBucket": {
+      "rate": 6.369,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1686744710281
+    },
+    "thirtyYearFixedBucket": {
+      "rate": 6.748,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1686744710281
+    },
+    "arm5Bucket": {
+      "rate": 6.585,
+      "rateSource": "ZGMI",
+      "lastUpdated": 1686744710281
+    }
+  },
+  "propertyTaxRate": 1.17,
+  "hiResImageLink": "<https://photos.zillowstatic.com/fp/955a205dbda59d4094bfdc2bae06f94d-p_f.jpg>",
+  "hdpTypeDimension": "ForSale",
+  "mlsid": "OC23089141",
+  "ouid": "M00000093",
+  "propertyTypeDimension": "Single Family",
+  "mediumImageLink": "<https://photos.zillowstatic.com/fp/955a205dbda59d4094bfdc2bae06f94d-p_d.jpg>",
+  "isZillowOwned": false,
+  "isShowcaseListing": false,
+  "enhancedBrokerImageUrl": "<https://photos.zillowstatic.com/fp/9f61463932aa73f48f1ae3d056f0eb39-zillow_web_95_35.jpg>",
+  "listingAccountUserId": null,
+  "tourEligibility": {
+    "isPropertyTourEligible": true,
+    "propertyTourOptions": {
+      "isFinal": true,
+      "tourAvailability": [
+        {
+          "date": "2023-06-14",
+          "status": "AVAILABLE",
+          "times": [
+            "11:00:00",
+            "11:30:00",
+            "12:00:00",
+            "12:30:00",
+            "13:00:00",
+            "13:30:00",
+            "14:00:00",
+            "14:30:00",
+            "15:00:00",
+            "15:30:00",
+            "16:00:00",
+            "16:30:00",
+            "17:00:00",
+            "17:30:00",
+            "18:00:00",
+            "18:30:00",
+            "19:00:00"
+          ]
+        }
+      ],
+      "tourType": "INSTANT"
+    }
+  },
+  "responsivePhotos": [
+    {
+      "caption": "",
+      "subjectType": null,
+      "url": "<https://photos.zillowstatic.com/fp/955a205dbda59d4094bfdc2bae06f94d-p_d.jpg>"
+    }
+  ],
+  "buildingId": null,
+  "virtualTourUrl": null,
+  "hasApprovedThirdPartyVirtualTourUrl": false,
+  "photoCount": 54,
+  "livingAreaUnits": "Square Feet",
+  "lotSize": 24000,
+  "lotAreaValue": 0.5509641873278237,
+  "lotAreaUnits": "Acres",
+  "postingProductType": "Standard",
+  "marketingName": null,
+  "ZoDsFsUpsellTop": {
+    "display": false,
+    "displayCategory": "none",
+    "displayAttributes": {
+      "leadType": "PARTNER_LEADS_INTEREST_LIST"
+    },
+    "treatment": "DISABLED",
+    "surfaceId": "fshdp",
+    "placementId": "wow-top",
+    "reason": "The property is ineligible for displaying upsell"
+  },
+  "stateId": 9,
+  "zipPlusFour": "1231",
+  "numberOfUnitsTotal": 1,
+  "foreclosureDefaultFilingDate": null,
+  "foreclosureAuctionFilingDate": null,
+  "foreclosureLoanDate": null,
+  "foreclosureLoanOriginator": null,
+  "foreclosureLoanAmount": null,
+  "foreclosurePriorSaleDate": null,
+  "foreclosurePriorSaleAmount": null,
+  "foreclosureBalanceReportingDate": null,
+  "foreclosurePastDueBalance": null,
+  "foreclosureUnpaidBalance": null,
+  "foreclosureAuctionTime": null,
+  "foreclosureAuctionDescription": null,
+  "foreclosureAuctionCity": null,
+  "foreclosureAuctionLocation": null,
+  "foreclosureDate": null,
+  "foreclosureAmount": null,
+  "foreclosingBank": null,
+  "foreclosureJudicialType": "Non-Judicial",
+  "datePostedString": "2023-05-24",
+  "foreclosureTypes": {
+    "isBankOwned": false,
+    "isForeclosedNFS": false,
+    "isPreforeclosure": false,
+    "isAnyForeclosure": false,
+    "wasNonRetailAuction": false,
+    "wasForeclosed": false,
+    "wasREO": null,
+    "wasDefault": null
+  },
+  "foreclosureMoreInfo": null,
+  "hasBadGeocode": false,
+  "postingUrl": null,
+  "richMedia": null,
+  "hasPublicVideo": false,
+  "primaryPublicVideo": null,
+  "richMediaVideos": null,
+  "photos": [
+    {
+      "caption": "",
+      "mixedSources": {
+        "jpeg": [
+          {
+            "url": "<https://photos.zillowstatic.com/fp/955a205dbda59d4094bfdc2bae06f94d-cc_ft_192.jpg>",
+            "width": 192
+          }
+        ],
+        "webp": []
+      }
+    }
+  ],
+  "listingSubType": {
+    "isFSBA": true,
+    "isFSBO": false,
+    "isPending": false,
+    "isNewHome": false,
+    "isForeclosure": false,
+    "isBankOwned": false,
+    "isForAuction": false,
+    "isOpenHouse": false,
+    "isComingSoon": false
+  },
+  "tourViewCount": 0,
+  "postingContact": {
+    "name": "John Doe",
+    "photo": null
+  },
+  "vrModel": {
+    "vrModelGuid": null,
+    "revisionId": null
+  },
+  "thirdPartyVirtualTour": {
+    "externalUrl": null,
+    "lightboxUrl": null,
+    "staticUrl": null,
+    "providerKey": null,
+    "approved": false
+  },
+  "listingAccount": null,
+  "listingFeedID": null,
+  "livingAreaUnitsShort": "sqft",
+  "priceChange": null,
+  "priceChangeDate": null,
+  "priceChangeDateString": null,
+  "formattedChip": {
+    "location": [
+      {
+        "fullValue": "10 Example St"
+      },
+      {
+        "fullValue": "Orinda, CA 94563"
+      }
+    ]
+  },
+  "hideZestimate": false,
+  "comingSoonOnMarketDate": null,
+  "isPreforeclosureAuction": false,
+  "mortgageRates": {
+    "thirtyYearFixedRate": 6.732
+  },
+  "annualHomeownersInsurance": 20139,
+  "lastSoldPrice": 3300000,
+  "isHousingConnector": false,
+  "thumb": [
+    {
+      "url": "<https://photos.zillowstatic.com/fp/955a205dbda59d4094bfdc2bae06f94d-p_a.jpg>"
+    }
+  ],
+  "isRecentStatusChange": false,
+  "isNonOwnerOccupied": false,
+  "isFeatured": false,
+  "rentalApplicationsAcceptedType": "REQUEST_TO_APPLY",
+  "listingTypeDimension": "For Sale by Agent",
+  "featuredListingTypeDimension": "organic",
+  "brokerIdDimension": "For Sale by Agent",
+  "keystoneHomeStatus": "ForSale",
+  "pageUrlFragment": "ForSale",
+  "isRentalsLeadCapMet": false,
+  "isPaidMultiFamilyBrokerId": false,
+  "selfTour": {
+    "hasSelfTour": false
+  }
+}

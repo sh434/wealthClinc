@@ -1,0 +1,30 @@
+.cityPageForm {
+    position: sticky;
+    top: 120px;
+}
+
+.projectCount {
+    font-size: .75rem;
+    font-weight: 450;
+    color: #6c757d
+}
+
+
+.sorted-Filter {
+    display: block;
+    color: #000;
+}
+
+.sorted-Filter:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .cityPageForm {
+        margin-top: 2rem .5rem;
+    }
+
+    .propertyCardsContainer {
+        width: 94%;
+    }
+}

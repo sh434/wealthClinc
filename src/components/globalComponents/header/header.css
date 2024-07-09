@@ -1,0 +1,189 @@
+.main {
+    width: 100%;
+    background: url("https://a0.muscache.com/im/pictures/miso/Hosting-603281858277532903/original/92af7b7e-0b55-41f4-b4a7-ffab7ee6125d.jpeg?im_w=720");
+    background: linear-gradient(to right, black 0%, orange 50%, white 100%);
+}
+
+.header {
+    top: 5px;
+    z-index: 9999999;
+    background: transparent;
+    /* background: rgba(0, 0, 0, 1); */
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 85%;
+    /* color: white; */
+    border-radius: 5rem;
+    text-transform: capitalize;
+
+    &.header img[alt] {
+        /* background: transparent; */
+        width: 122px;
+        /* transform: scale(1.1, 1.4); */
+        /* height: 60px; */
+        padding: 5px;
+    }
+}
+
+.header_active_Darken {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+}
+
+.logoContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding-top: 2rem; */
+}
+
+.menu {
+    padding: 0px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerSearchBtn {
+    border: none;
+    border-radius: 1.5rem;
+    width: 150px;
+    padding: 0.5rem;
+    background-color: var(--global-text-color);
+    color: #f7f7f7;
+}
+
+.headerProfile {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 0.4rem 0 0 0;
+    border-radius: 50%;
+}
+
+.menuBtn {
+    background: transparent;
+    font: 800;
+    width: 34px;
+    padding: 0.4rem;
+    padding-left: 1px;
+}
+
+.header-btn {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+}
+
+.header-btn a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.text-dark.navbar-brand:hover {
+    color: red;
+}
+
+.navbar-brand {
+    margin: 0;
+    display: block;
+}
+
+.eventDeco {
+    text-decoration: none;
+}
+
+.blogsDeco {
+    text-decoration: none;
+}
+
+.header-logo {
+    margin-left: 1.5rem;
+}
+
+img.acn {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+img.ser {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+i.bi.bi-list {
+    font-size: 19px;
+}
+
+/* HeaderSideButtons Components */
+
+.superGroup {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(239, 117, 15, 0.5);
+    border-radius: 0.5rem;
+
+    & .bgGrouping {
+        display: flex;
+        min-width: 100px;
+        justify-content: space-around;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    & .wishListHeaderBtn {
+        position: relative;
+
+        & .wishListCount {
+            position: absolute;
+            right: -8px;
+            top: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 1rem;
+            height: 1rem;
+            color: #fff;
+            background-color: #ef750f;
+            border-radius: 50%;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.5rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        border: none;
+        display: flex;
+        justify-content: center;
+
+        & .bgGrouping {
+            color: black;
+        }
+
+        .header {
+            padding: 0.25rem 2rem;
+            border-radius: 1.5rem;
+        }
+    }
+}
+
+.superGroup {
+    @media (max-width: 767.98px) {
+        border: none;
+        display: flex;
+        justify-content: center;
+
+        & .bgGrouping {
+            color: #f37535;
+            display: flex;
+            margin-right: 0.4375rem;
+            font-size: 1.5rem;
+            min-width: 0px;
+        }
+    }
+}

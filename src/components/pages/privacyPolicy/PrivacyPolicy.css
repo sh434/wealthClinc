@@ -1,0 +1,16 @@
+.policyTextContainer ul {
+    padding: 1rem;
+    padding-bottom: 0;
+    list-style-type: lower-alpha;
+    margin: 2rem 0
+}
+
+.policyTextContainer ul li {
+    margin-bottom: 1.25rem;
+    color: #888;
+    margin-left: 2.5rem;
+}
+
+.policyHeading {
+    margin-bottom: 1.5rem;
+}

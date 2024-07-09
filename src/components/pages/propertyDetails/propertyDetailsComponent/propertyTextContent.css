@@ -1,0 +1,119 @@
+.propertyTextContent-container {
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.propertyTextContent-container .card-main-head {
+    color: var(--global-text-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+    }
+}
+
+.propertyTextContent-container .card-city-sec-1 {
+    font-size: 0.75rem;
+}
+
+.propertyTextContent-container .card-city-price-1 {
+    font-size: 20px;
+    color: var(--global-text-color);
+    font-weight: 700;
+    line-height: 4px;
+}
+
+.propertyTextContent-container .social-btn-city {
+    background: #25d366;
+    color: white;
+    padding: 0.55rem 0.75rem;
+    border-radius: 12px;
+    border: 2px solid #ffffff;
+}
+
+.propertyTextContent-container .social-btn-city:hover {
+    color: #ef750f;
+    border: 2px solid #ef750f;
+    font-size: 1rem;
+}
+
+.propertyTextContent-container .btn-check+.btn:hover {
+    color: #e7e7e7;
+    background-color: #ef750f;
+    border-color: #ef750f;
+}
+
+.propertyTextContent-container button.btn.btn-sm.btn-shadow-card {
+    margin: 0.25rem 0.5rem;
+}
+
+.propertyTextContent-container .btn-group.mx-auto {
+    margin-top: 10px;
+}
+
+.propertyTextContent-container .properties-card-btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    /* border: 2px solid red; */
+}
+
+.propertyTextContent-container .properties-card-btn-container button {
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.propertyTextContent-container .whatsapp-btn {
+    background-color: #fff;
+    padding: 0.5rem 0.25rem;
+}
+
+.propertyTextContent-container .fa-whatsapp,
+.bi-eye {
+    color: #25d366;
+    font-size: 1.25rem;
+}
+
+.propertyTextContent-container .fa-phone-flip,
+.bi-headphones {
+    color: skyblue;
+    font-size: 1.25rem;
+}
+
+.propertyTextContent-container .properties-detail {
+    background-color: var(--global-dark-btn-color);
+    color: #fff;
+}
+
+.propertyTextContent-container .properties-detail:hover {
+    opacity: 0.85;
+}
+
+.configuration-container {
+    padding: 0.25rem 0;
+    margin: 1rem 0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+    .propertyTextContent-container .properties-card-btn-container {
+        padding: 0 0.5rem;
+    }
+
+    .propertyTextContent-container {
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+
+        & .configuration-container .configureImg {
+            width: 20%;
+        }
+
+        & .configuration-container .configureTexts {
+            width: 80%;
+        }
+    }
+}

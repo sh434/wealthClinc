@@ -1,0 +1,23 @@
+.termsConditionContainer ul {
+    padding: 1rem;
+    padding-bottom: 0;
+    list-style-type: lower-alpha;
+    margin: 2rem 0
+}
+
+.termsConditionContainer ul li {
+    margin-bottom: 1.25rem;
+    color: #888;
+    margin-left: 2.5rem;
+}
+
+.termsConditionContainer ul p {
+    margin-bottom: 1.25rem;
+    color: #888;
+    margin-left: 1.5rem;
+}
+
+
+.termsConditionHeading {
+    margin-bottom: 1.5rem;
+}

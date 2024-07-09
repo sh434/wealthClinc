@@ -1,0 +1,18 @@
+.sidebar-Scroller::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.sidebar-Scroller::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.sidebar-Scroller::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.sidebar-Scroller::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

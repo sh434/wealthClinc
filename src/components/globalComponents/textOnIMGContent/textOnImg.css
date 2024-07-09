@@ -1,0 +1,20 @@
+.textOnImg-container {
+    position: relative;
+    bottom: 10rem;
+    /* left: 2%; */
+    /* transform: translate(-50%); */
+    /* width: 354px; */
+    height: 100px !important;
+    padding: 2rem;
+    margin: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    /* filter: brightness(0.8); */
+    background: (0 0 0 / 50%);
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+.textOnImg-child {
+    margin-top: -1rem;
+}

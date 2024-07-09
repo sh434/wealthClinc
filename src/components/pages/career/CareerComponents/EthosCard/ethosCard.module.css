@@ -1,0 +1,75 @@
+.ethosCardContainer {
+    width: 260px;
+    height: auto;
+    background-color: #ee8c64;
+    border-radius: 1.5rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.ethosCardContainer:hover {
+    background-color: #ef750f;
+    cursor: pointer;
+    border-radius: 0.75rem;
+    transition: border-radius 2s ease-in-out;
+}
+
+.ethosIcon {
+    margin-top: 10px;
+    width: 70px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 27%;
+    padding: 11px;
+}
+
+.ethosTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.ethosDescription {
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .ethosCardContainer {
+        width: 143px;
+        margin-bottom: 7px;
+        margin-left: 9px;
+        height: 154px;
+        border-radius: 10px;
+        padding: 0.25rem;
+    }
+
+    .ethosIcon {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        background-color: #fff;
+        border-radius: 27%;
+        /* padding: 11px; */
+    }
+
+    .ethosTitle {
+        font-size: 12px;
+        font-weight: 600;
+        color: #000;
+        /* padding: .25rem 0; */
+    }
+
+    .ethosDescription {
+        font-size: 10px;
+        margin-top: -15px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: center;
+        color: #444;
+        padding: 0 .25rem;
+    }
+}

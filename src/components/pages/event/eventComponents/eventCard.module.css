@@ -1,0 +1,72 @@
+.card1 {
+    /* flex: 0 0 33.33%; */
+    /* min-width: 280px; */
+    /* width: 100%; */
+    /* max-width: 450px; */
+    padding: 1rem;
+    /* margin: 0.2rem; */
+
+}
+
+.card1 .imgDiv {
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+    border-radius: 0.8rem;
+    cursor: pointer;
+
+
+}
+
+.card1:hover {
+    border-radius: 1rem;
+    box-shadow:
+        0px 4px 8px rgba(0, 0, 0, 0.1), 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card1 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 0.8rem 0.8rem;
+}
+
+.card1 img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out
+}
+
+.signatureContainer {
+    width: 50%;
+    background-color: black;
+    background: linear-gradient(to right, black 20%, orange 100%);
+    color: #ffffff;
+    border-radius: 0 3.5rem 0 0;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.c-gray {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.blogCardBtn {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    color: var(--global-text-color);
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    margin: 0.75rem 0;
+    width: 100%;
+    background: #0B2C3D;
+    color: #fff;
+    /* width: 50%; */
+
+}
+
+.blogCardBtn:hover {
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}

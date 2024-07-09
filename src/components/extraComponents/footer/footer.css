@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    font-size: 90%;
+    width: 100%;
+}
+
+.footer h6 {
+    margin-bottom: 1rem;
+    /* text-decoration: underline; */
+}

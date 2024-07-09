@@ -1,0 +1,50 @@
+.eventHeader {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.eventHeader a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    /* display: block; */
+}
+
+.events {
+    /* background: #ef750f; */
+    /* background: #0b2c3d; */
+    padding: 0.25rem 0;
+    margin-right: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.events:hover {
+    background: #ef750f !important;
+}
+
+.successFullEvent {
+    background: #0b2c3d;
+    padding: 0.25rem 0;
+    text-align: center;
+}
+
+/* .allEvent {
+
+    padding: 0.25rem 0;
+    margin-right: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+} */
+
+
+.eventCardContainer a {
+    display: flex;
+    text-decoration: none;
+    color: #0b2c3d;
+}

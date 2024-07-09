@@ -1,0 +1,53 @@
+.ethos-BG {
+    background-color: black;
+    padding: 24px;
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ethos-heading {
+    border-bottom: 7px solid #f37535;
+    display: inline;
+}
+
+.ehtospara {
+    margin-top: 35px;
+    text-align: justify;
+    color: #fff;
+}
+
+.iconPlacementEhos {
+    float: right;
+}
+
+.mtb {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ethosCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .ethos-BG {
+        border-radius: .5rem;
+        font-size: 75%;
+    }
+
+    .ethos-heading {
+        font-size: 55%;
+    }
+
+    .iconPlacementEhos {
+        display: none;
+    }
+
+
+}

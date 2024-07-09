@@ -1,0 +1,49 @@
+.side-bar-main {
+    margin: 0 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0 0.5rem;
+    cursor: pointer;
+    /* border: 2px solid green !important; */
+}
+
+.side-bar-container {
+    width: 80px;
+    height: 80px;
+    padding: 0.25rem;
+}
+
+.side-bar-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.categories-container {
+    padding: 0.5rem 0;
+    width: 100%;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.categories-heading {
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.sideInfoContainer {
+    padding: 0;
+    padding-left: 0.5rem;
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-background {
+        background: #fde3d7 !important;
+    }
+}

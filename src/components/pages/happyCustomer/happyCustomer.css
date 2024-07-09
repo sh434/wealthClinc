@@ -1,0 +1,103 @@
+/* <!-- second slider -->  */
+.carousel {
+    padding: 1.3em 1.3em 0;
+    background: rgb(223, 223, 223);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.carousel div {
+    position: relative;
+    margin-bottom: .3em;
+    padding-top: 56.25%;
+}
+
+.carousel iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel span {
+    display: inline-block;
+    word-spacing: 1em;
+
+    overflow: auto;
+    white-space: nowrap;
+    word-wrap: normal;
+
+}
+
+.carousel a {
+    border-radius: 3px;
+    margin: 2px;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    max-width: 180px;
+    /* width: 25%; */
+    width: 250px;
+    border: 2px solid #ef750e;
+    /* opacity: .7; */
+    text-decoration: none;
+}
+
+.carousel a:visited,
+.carousel a:nth-of-type(1) {
+    border-color: #f67626;
+}
+
+.carousel a:hover {
+    opacity: 1;
+}
+
+.carousel a:not(:active):focus {
+    pointer-events: none;
+}
+
+.carousel a::before {
+    content: "";
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    bottom: 0em;
+    left: 0em;
+    background: rgba(0, 0, 1, .1);
+    transition: background 0s 9999999s;
+}
+
+.carousel a:nth-of-type(1)::before {
+    background: rgba(255, 255, 254, .7);
+}
+
+.carousel span:active a::before {
+    background: rgba(0, 0, 0, 0);
+    transition: background 0s;
+}
+
+.carousel span:active a:active::before {
+    background: rgba(255, 255, 255, .7);
+    transition: background 0s;
+}
+
+.carousel img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.carousel span::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.carousel span::-webkit-scrollbar-thumb {
+    background-color: #ef750e;
+    border-radius: 10px;
+}
+
+.scroll_x {
+    width: 100%;
+    overflow-x: scroll;
+}

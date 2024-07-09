@@ -1,0 +1,88 @@
+.card1 {
+    display: flex;
+    /* flex: 0 0 33.33%; */
+    min-width: 280px;
+    width: 100%;
+    max-width: 450px;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.card1 .imgDiv {
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.favouriteBtn {
+    width: 2.5rem;
+    height: 2.5rem;
+    /* filter: blur(1px); */
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EF750F;
+    z-index: 999;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.card1 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 0.8rem;
+}
+
+.card1 img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out
+}
+
+.signatureContainer {
+    width: 50%;
+    /* background-color: black;
+    background: linear-gradient(to right, black 20%, orange 100%); */
+    color: #ffffff;
+    border-radius: 0 3.5rem 0 0;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.c-gray {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* By KR */
+.fireFlame {
+    width: 35px !important;
+    height: auto !important;
+    padding: 1px;
+}
+
+.propertiesViewMoreBtn {
+    /* background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0, 0.5); */
+    border-radius: 0.25rem;
+    font-weight: 500;
+    height: 36px;
+    /* padding: 0.25rem; */
+    /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); */
+}
+
+/* .propertiesViewMoreBtn:hover {
+    background-color: #fff;
+    border: 1px solid #EF750F;
+    color: #EF750F;
+} */

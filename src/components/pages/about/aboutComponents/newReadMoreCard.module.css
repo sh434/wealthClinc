@@ -1,0 +1,77 @@
+.bgColBlock {
+    width: 50%;
+    position: relative;
+    margin: 24px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    padding: 12px;
+
+    @media screen and (max-width: 768px) {
+        width: 89% !important;
+        margin: 9px;
+    }
+}
+
+.readMoreTitle {
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.readMoreDesc {
+    color: #ffffff;
+    line-height: 1.5rem;
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* !------old css for Black card-------------------- */
+/* .bgColBlock {
+    position: relative;
+    margin: 24px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+    padding: 12px;
+} */
+
+.pillarsImg {
+    padding-top: 1.5rem;
+    margin: 12px;
+    width: 46px;
+    height: auto;
+
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        justify-content: flex-start;
+        /* width: 28px;
+        height: 52px;
+        margin-left: "-233px"; */
+        margin-top: -1rem;
+    }
+}
+
+/* .readMoreTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.readMoreDesc {
+    color: #fff;
+    line-height: 1.5rem;
+    font-size: 14px;
+    text-align: justify;
+} */
+
+.btnTxt {
+    font-weight: 600;
+}
+
+.tryBubble {
+    top: 0px;
+    right: 0px;
+    width: 144px;
+    position: absolute;
+}

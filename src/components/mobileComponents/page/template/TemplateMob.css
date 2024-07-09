@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+
+    .mobOurFootPrints {
+        padding: 1rem .5rem;
+        background-color: #000;
+    }
+
+    .OurFootPrintsTitle {
+        color: #ef750f;
+        font-size: 1rem;
+    }
+
+    .footprintsParagraph {
+        color: #fff;
+
+        letter-spacing: 1px;
+    }
+}

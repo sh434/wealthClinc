@@ -1,0 +1,148 @@
+.signUpHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.2); */
+}
+
+.my-h {
+    height: 50px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-align: center;
+}
+
+.signUpHeader div {
+    color: orange;
+    padding: 0.55rem;
+}
+
+.signUpHeader div:hover {
+    border-bottom: 3px solid orange;
+    cursor: pointer;
+}
+
+.signUpForm {
+    background-color: #FFFEFF;
+    /* padding: 2rem 0; */
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+
+
+.signUpForm form {
+    background: beige !important;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.signUpForm input,
+.signUpForm button,
+.signUpForm select {
+    width: 100%;
+    border-radius: .5rem;
+    margin: .75rem 0;
+    font-size: 90%;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.signUpForm option {
+    color: red;
+}
+
+.signUpForm button {
+    color: rgba(255, 69, 0, 0.5);
+    background: var(--global-text-color);
+    font-weight: 700;
+    color: #FFFEFF;
+}
+
+.signUpForm button:hover {
+    background-color: rgba(255, 69, 0, 0.8);
+}
+
+
+.about-Us-Page-Slider {
+    width: 100%;
+    height: 420px;
+}
+
+.about-Us-Page-Slider button {
+    width: 0;
+    height: 0;
+    border: none;
+    display: none;
+}
+
+
+#options option {
+    background-color: black;
+    color: #ffffff;
+    padding: 8px;
+    border: 10px solid #dee2e6;
+    cursor: pointer;
+    margin: 15px;
+    padding: 15px;
+}
+
+#options option:last-child {
+    cursor: pointer;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+.newClass {
+    padding: 0 4rem;
+}
+
+.newClass .text-Item {
+    text-wrap: wrap;
+}
+
+.centerSlider {
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+@media screen and (max-width: 768px) {
+    .newClass {
+        display: flex;
+        justify-content: center;
+        background: rgba(239, 117, 15, 1);
+        border-radius: .25rem;
+    }
+
+    .callBackForm {
+        margin-top: 3rem;
+        padding: .5rem;
+        background: #e6e6e6;
+    }
+
+    .signUpForm {
+        background: none !important;
+        font-size: 85%;
+
+        & form {
+            padding: 1.5rem 1.75rem;
+            border-radius: .5rem;
+        }
+
+        input,
+        select,
+        button {
+            border-radius: .25rem;
+            margin: .5rem 0;
+            padding: .5rem 1.5rem;
+        }
+
+
+    }
+}

@@ -1,0 +1,54 @@
+.QuerySectionTemplate {
+  padding: 2rem 0;
+  margin: 2rem 0;
+  background: rgba(0, 0, 0, 0.7) url("../../../assets/queryBackground.jpg");
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fixedHeight {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  max-height: 840px;
+  height: 630px;
+}
+
+.enquiryFormTitle {
+  padding-left: 4.5rem;
+}
+
+.Main__Content-sc-1oq93m5-1.QqUEG.es-main-content {
+  padding: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .QuerySectionTemplate {
+    position: relative;
+    background: #e6e6e6;
+  }
+
+  .enquiryFormTitle {
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width: 85%;
+    background: rgba(239, 117, 15, 1);
+    border-radius: 0.5rem;
+    padding: .75rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & .callback {
+      overflow: visible;
+    }
+  }
+}

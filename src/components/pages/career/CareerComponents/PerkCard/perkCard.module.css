@@ -1,0 +1,53 @@
+.perkCardContainer {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.parkCard {
+    width: 290px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0.75rem;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    color: #888;
+    font-weight: 400;
+    align-items: center;
+}
+
+.parkCard:hover {
+    background-color: #000;
+    color: white;
+}
+
+.perkIcon {
+    max-width: 5rem;
+    max-height: 5rem;
+    background-color: #fff;
+    width: 70px;
+    height: auto;
+    padding: 0.75rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .parkCard {
+        width: 95%;
+        border-radius: .5rem;
+        font-size: 12px;
+        color: black;
+        font-weight: 400;
+        background-color: #fff;
+
+    }
+
+    .perkIcon {
+        width: 50px;
+        padding: 0.25rem;
+        border: 1px solid #000;
+        border-radius: .5rem;
+    }
+}

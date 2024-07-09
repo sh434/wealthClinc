@@ -1,0 +1,35 @@
+.exploreProject img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.exploreProject img:hover {
+    transform: scale(1.2);
+}
+
+.newImgDiv {
+    position: relative;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.newImgDiv:hover {
+    transform: scale(1.1);
+    overflow: hidden !important;
+    transition: transfer 1s ease-in-out;
+    transition: 0.7s;
+}
+
+.exploreSectionText {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.25rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.exploreImgContainer {
+    overflow: hidden !important;
+}

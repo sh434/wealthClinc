@@ -1,0 +1,19 @@
+.searchBar {
+    padding: 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3rem;
+    background-color: white;
+}
+
+.searchBar input {
+    border-radius: 3rem 1rem 1rem 3rem !important;
+}
+
+/* .searchField {
+    border: 2px solid red;
+} */
+
+.searchBarBorder {
+    border: 2px solid #0000005e;
+    box-shadow: 2px 2px 5px #00000094;
+}

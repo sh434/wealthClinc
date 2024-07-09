@@ -1,0 +1,42 @@
+.del-underLine {
+    text-decoration: none;
+}
+
+.btn-shadow-card {
+    background: #ffffff;
+    color: #888;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-center {
+    display: flex;
+    justify-content: center;
+}
+
+input:focus {
+    outline: none;
+    /* border-color: #ff0000; */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* col-xs: Extra small screens (less than 576px wide)
+col-sm: Small screens (576px and up)
+col-md: Medium screens (768px and up)
+col-lg: Large screens (992px and up)
+Additionally, col-xl is used for extra-large screens (1200px and up). */
+
+
+.contactUseMapSection {
+    border: 2px solid red;
+}

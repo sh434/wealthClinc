@@ -1,0 +1,94 @@
+.bgAdd {
+    --bg-blog-title-text-color: #444;
+    --bg-blog-text-color: #555;
+    --bg-blog-hover-text-color: #ef750f;
+}
+
+.bgAdd {
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.bgAdd:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mainAddressHeading {
+    color: var(--bg-blog-title-text-color);
+    padding-top: 1.25rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.borderNow {
+    border: 1px solid var(--bg-blog-text-color);
+}
+
+.fullAddress {
+    color: var(--bg-blog-text-color);
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.addressIconContainer {
+    color: var(--bg-blog-text-color);
+    text-align: center;
+    font-size: 1rem;
+    padding: 1.25rem;
+}
+
+.socialIconDeco {
+    color: var(--bg-blog-text-color);
+    text-decoration: none;
+}
+
+.addressCardImg {
+    width: 14rem;
+    height: auto;
+}
+
+.addressIconContainer:hover,
+.socialIconDeco:hover,
+.pd-mar-text:hover {
+    color: var(--bg-blog-hover-text-color);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .bgAdd {
+        /* width: 353px; */
+        margin-top: 1rem;
+        box-shadow: 0px 0px 8px 0px #00000040;
+        height: 256px;
+        border-radius: .25rem;
+        padding: 1rem;
+    }
+
+    .mainAddressHeading {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.94px;
+        text-align: center;
+        margin-top: 4px;
+    }
+
+    .fullAddress {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.52px;
+        text-align: left;
+        color: #525558;
+    }
+
+    .addressIconContainer {
+        padding: 0px;
+        font-size: .75rem;
+        font-weight: 400;
+        line-height: 1rem;
+        text-align: left;
+        margin-left: 2rem;
+    }
+}

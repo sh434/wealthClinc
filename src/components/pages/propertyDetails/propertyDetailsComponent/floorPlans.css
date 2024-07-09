@@ -1,0 +1,13 @@
+.floorPlansSlider {
+    height: 300px;
+}
+
+.floorPlansSlider button {
+    position: absolute;
+    z-index: 9999;
+    background-color: black !important;
+}
+
+.floorPlansSlider li button {
+    display: none;
+}

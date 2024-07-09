@@ -1,0 +1,15 @@
+.copyrightMedia i {
+    border: 2px solid red;
+}
+
+.custom-bg-dark {
+    background-color: black !important;
+}
+.linksText {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+}
+.copyRightstyle{
+    text-align: center;
+}

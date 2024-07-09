@@ -1,0 +1,63 @@
+.bg-mission {
+    width: 80%;
+    height: auto;
+    animation: floatAnimation 5s infinite linear;
+}
+
+.bg-mission:hover {
+    animation-play-state: paused;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+        /* Initial position */
+    }
+
+    50% {
+        transform: translateY(-20px);
+        /* Float up */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Return to initial position */
+    }
+}
+
+.mission-title {
+    font-weight: 700;
+    border-bottom: 7px solid #7B6FE7;
+    display: inline;
+}
+
+.missionpara {
+    margin-top: 35px;
+    text-align: justify;
+}
+
+.missionSecBg1 {
+    background-color: #dbd9ed;
+    padding: 31px;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.missionIcons {
+    float: right;
+}
+
+.iconPlacement {
+    float: right;
+}
+
+.mtb {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.giphyBg1 {
+    background-image: url(../../../../assets/mission.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

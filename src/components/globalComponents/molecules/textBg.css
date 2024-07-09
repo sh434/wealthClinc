@@ -1,0 +1,25 @@
+.text-background-container {
+    background: url("../../../assets/complex-aerial-view-city.jpg");
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* padding: 3rem; */
+    background-position: bottom;
+}
+
+.textH1 {
+    padding: 3rem;
+}
+
+@media (max-width: 600px) {
+    div.text-background-container {
+        font-size: 30%;
+    }
+}
+
+@media (min-width: 601px) {
+    div.text-background-container {
+        font-size: 64%;
+    }
+}
