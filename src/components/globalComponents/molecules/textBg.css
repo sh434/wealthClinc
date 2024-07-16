@@ -8,9 +8,9 @@
     background-position: bottom;
 }
 
-.textH1 {
+/* .textH1 {
     padding: 3rem;
-}
+} */
 
 @media (max-width: 600px) {
     div.text-background-container {

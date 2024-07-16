@@ -13,7 +13,7 @@ const TextBg = ({ text, fontWeight, fontSize, style, className }) => {
       <Heading
         text={text}
         className={`textH1 ${className}`}
-        fontSize={fontSize}
+        fontSize="3.5rem"
         fontWeight={fontWeight}
         style={newStyle}
       />

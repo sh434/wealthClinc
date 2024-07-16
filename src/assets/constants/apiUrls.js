@@ -42,6 +42,7 @@ export const getFullUrlBySlug = (urlEndPoint, slug) =>
   `${PROVIDER}${urlEndPoint}?${API_FILTER_BY.SLUG}=${slug}&populate=*`;
 
 export const getFullUrl = (urlEndPoint) => `${PROVIDER}${urlEndPoint}`;
+
 export const getFullUrlLocal = (urlEndPoint) =>
   `${LOCAL_PROVIDER}${urlEndPoint}`;
 

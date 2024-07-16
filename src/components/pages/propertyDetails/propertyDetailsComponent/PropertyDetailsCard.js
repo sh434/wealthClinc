@@ -24,6 +24,7 @@ const settings = {
 
 const PropertyDetailsCard = ({ propertyDetail }) => {
   const isMobile = useDeviceSize();
+  console.log(propertyDetail)
   const params = properDetailsCardParams(propertyDetail);
   const { Project_Name = "", Image = EMPTY_ARRAY } =
     propertyDetail || EMPTY_OBJECT;
@@ -82,6 +83,7 @@ function properDetailsCardParams(property) {
     Project_Configuration,
     Address = "",
     Project_Disclaimer = "",
+    projectId =""
   } = property || EMPTY_OBJECT;
 
   return {
@@ -91,6 +93,7 @@ function properDetailsCardParams(property) {
     Project_Configuration,
     Address,
     Project_Disclaimer,
+    projectId
   };
 }
 
