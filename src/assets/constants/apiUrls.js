@@ -5,12 +5,14 @@ import {
 
 // export const PROVIDER = "https://skilled-novelty-ca8cc2dd3d.strapiapp.com";
 export const PROVIDER = "https://bold-approval-c005df0fb8.strapiapp.com";
-export const LOCAL_PROVIDER = "https://bold-approval-c005df0fb8.strapiapp.com";
+// export const LOCAL_PROVIDER = "https://bold-approval-c005df0fb8.strapiapp.com";
+export const LOCAL_PROVIDER = "http://localhost:1337";
 // "http://localhost:1337";
 
 export const API_URL = {
   ABOUT_US: "/api/about-us",
   AWARDS: "/api/awards",
+  EMPLOYEE_AWARDS:"/api/employee-awards",
   BLOGS: "/api/blogs",
   BLOG_SUMMARY_PAGE: "/api/blogs",
   BLOGS_CATEGORIES: "/api/blog-categories",
@@ -76,9 +78,8 @@ export const getPropertyDetailsUrlByPropertyName = (propertyName) =>
   );
 
 export const getPropertyPopulatedFieldsUrlById = (fields, id) => {
-  return `${PROVIDER}${
-    API_URL?.PROPERTIES
-  }/${id}${generatePopulatedFieldsUrlStr(fields)}`;
+  return `${PROVIDER}${API_URL?.PROPERTIES
+    }/${id}${generatePopulatedFieldsUrlStr(fields)}`;
 };
 
 // !--------------BLOGS-PAGE-------------------------------

@@ -8,6 +8,7 @@ import ReactStars from "react-rating-stars-component";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { toast, ToastContainer } from 'react-toastify';
+import { getFullUrlLocal } from "../../../../assets/constants/apiUrls";
 import 'react-toastify/dist/ReactToastify.css';
 
 const PropertyTextContent = ({ propertyDetail }) => {
@@ -45,14 +46,20 @@ const PropertyTextContent = ({ propertyDetail }) => {
     fetchIpAddress();
   }, [projectId]);
 
+
   useEffect(() => {
     const fetchViewCount = async () => {
-        const viewCountResponse = await axios.get(`http://localhost:1337/api/views?filters[projectId][$eq]=${projectId}`);
+      try {
+        const fullUrl = getFullUrlLocal(`/api/views?filters[projectId][$eq]=${projectId}`);
+        const viewCountResponse = await axios.get(fullUrl);
         const view = viewCountResponse.data?.data[0]?.attributes.view;
         setViewCount(view);
+      } catch (error) {
+        console.error('Failed to fetch view count:', error);
+      }
     };
     fetchViewCount();
-}, [projectId]);
+  }, [projectId]);
 
   useEffect(() => {
     if (hasRated) {

@@ -1,26 +1,25 @@
-.fruite .fruite-item {
+.award-card .award-item {
   transition: 0.5s;
-
 }
 
-.fruite .fruite-item:hover {
+.award-card .award-item:hover {
   box-shadow: 0 0 55px #f37535;
 }
 
-.fruite .fruite-item .fruite-img {
+.award-card .award-item .award-img {
   overflow: hidden;
   transition: 0.5s;
-  border-radius: 10px 10px 0 0;
-  border: 2px solid #f37535;
-  padding: 1rem;
-
+  border-radius: .5rem;
+  padding: .75rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .2);
 }
 
-.fruite .fruite-item .fruite-img img {
+.award-card .award-item .award-img img {
   transition: 0.5s;
 }
 
-.fruite .fruite-item .fruite-img img:hover {
+.award-card .award-item .award-img img:hover {
   transform: scale(1.3);
 }
 

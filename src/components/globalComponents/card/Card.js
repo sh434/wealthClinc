@@ -7,7 +7,8 @@ import { formatIndianCurrency } from "../../../helpers/helper";
 import fireFlame from "../../../assets/fireFlame.jpg";
 import { wishListBtnColorStyle } from "./../../styles/globalStyle";
 import styles from "./card.module.css";
-
+import { getFullUrlLocal } from "../../../assets/constants/apiUrls";
+import { fetchViewData } from "../../../helpers/FetchView";
 import axios from "axios";
 
 const Card = ({ cardData }) => {
@@ -46,31 +47,32 @@ const Card = ({ cardData }) => {
     setIsFavourite(!isFavourite);
   };
 
-  useEffect(() => {
-    const fetchRating = async () => {
-      try {
-        const response = await axios.get(`http://localhost:1337/api/ratings`);
-        const ratingsData = response.data.data;
-        if (ratingsData && ratingsData.length > 0) {
-          const totalStars = ratingsData.reduce((acc, rating) => acc + rating.attributes.star, 0);
-          const averageRating = totalStars / ratingsData.length;
-          setRating(averageRating.toFixed(2));
-        } else {
-          console.warn("No rating data found.");
-        }
-      } catch (error) {
-        console.error("Error fetching the rating", error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchRating = async () => {
+  //     try {
+  //       const response = await axios.get(`http://localhost:1337/api/ratings`);
+  //       const ratingsData = response.data.data;
+  //       if (ratingsData && ratingsData.length > 0) {
+  //         const totalStars = ratingsData.reduce((acc, rating) => acc + rating.attributes.star, 0);
+  //         const averageRating = totalStars / ratingsData.length;
+  //         setRating(averageRating.toFixed(2));
+  //       } else {
+  //         console.warn("No rating data found.");
+  //       }
+  //     } catch (error) {
+  //       console.error("Error fetching the rating", error);
+  //     }
+  //   };
 
-    fetchRating();
-  }, [propertyId]);
+  //   fetchRating();
+  // }, [propertyId]);
 
   const getIPAddress = async () => {
     try {
-      const response = await fetch('https://api.ipify.org?format=json');
-      const data = await response.json();
-      return data.ip;
+      // Fetch IP address using axios
+      const response = await axios.get('https://api.ipify.org?format=json');
+      // Access the IP from response.data
+      return response.data.ip;
     } catch (error) {
       console.error("Failed to fetch IP address:", error);
       return null;
@@ -102,46 +104,42 @@ const Card = ({ cardData }) => {
   // };
   const handleViewMore = async (projectId) => {
     const ipAddress = await getIPAddress();
-    console.log(ipAddress, "IP Address");
-
-    if (ipAddress) {
-      try {
-        const response = await fetch(`http://localhost:1337/api/views`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
+    if (!ipAddress) {
+      console.error("Unable to fetch IP address");
+      return;
+    }
+  
+    try {
+      const existingIpAddresses = await fetchViewData(projectId);
+      console.log(existingIpAddresses, "Existing IP addresses");
+      if (!existingIpAddresses.includes(ipAddress)) {
+        existingIpAddresses.push(ipAddress);
+        const updatedIpAddressesString = existingIpAddresses.join(',');
+        
+        const fullUrl = getFullUrlLocal('/api/views');
+         await axios.post(fullUrl, {
+          data: {
+            projectId: String(projectId),
+            ipAddress: updatedIpAddressesString,
           },
-          body: JSON.stringify({
-            data: {
-              projectId: projectId,
-              ipAddress: ipAddress,
-              view:1,
-            },
-          }),
         });
   
-        if (!response.ok) {
-          const errorResponse = await response.json();
-          console.error('Error response:', errorResponse);
-          throw new Error('Network response was not ok');
-        }
-  
-        const responseData = await response.json();
-        console.log('Response data:', responseData);
-  
-      } catch (error) {
-        console.error("Failed to send data to the API:", error);
+        const viewCount = existingIpAddresses.length;
+    
+      } else {
+        console.log('IP address already exists. Current view count:', existingIpAddresses.length);
       }
-    } else {
-      console.error("Unable to fetch IP address");
+    } catch (error) {
+      console.error("Failed to update view data:", error.response ? error.response.data : error.message);
     }
   };
-  
+
+
 
 
   return (
     <div className={styles.card1}>
-      <div className={styles.imgDiv}>
+      <div className={styles.imgDiv} onClick={() => handleViewMore(propertyId)}>
         <div className={styles.favouriteBtn} onClick={handleWishList}>
           {isFavourite ? (
             <FaHeart style={wishListBtnColorStyle} />
@@ -180,7 +178,7 @@ const Card = ({ cardData }) => {
         <div className="col-md-12">
           <ButtonDarkBlue
             name="View More"
-            onClick={() => handleViewMore(propertyId)}
+
           />
         </div>
       </div>
